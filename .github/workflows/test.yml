@@ -11,8 +11,5 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: actions/setup-node@v2
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 8
-      - run: npm pnpm install
-      - run: npm pnpm run test:e2e
+      - run: npm npm install
+      - run: npm npm run test:e2e
